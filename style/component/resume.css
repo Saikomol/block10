@@ -1,0 +1,60 @@
+
+.grid-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     margin: 0;
+    padding: 0;
+}
+.flowLine{
+    background-color: #9BD5FF;
+    width: .05rem;
+}
+.flowDocument,.flowMain{
+
+    padding: 0.5rem;
+}
+.flowDocument{
+    margin-right: .5rem;
+
+}
+.flowMain{
+
+    margin-left: .5rem;
+}
+.special-character{
+    color: red;
+    font-size: 10px;
+    font-style: oblique;
+}
+
+.myphoto{
+    border-radius: 50%;
+    border: 2px solid  #a5f3fc;
+    width: 6rem;
+    height: 6rem;
+
+}
+.dtsquare-1{
+    font-size: var(--size-sm);
+    background-color: #9BD5FF;
+    width: 12rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-bottom: .1rem;
+    letter-spacing: .01rem;    
+}
+progress{
+    width: 6rem;
+    background-color: #9BD5FF;
+    accent-color: orange;
+    border-radius: 10px;
+    height: 12px;
+}
+progress::-webkit-progress-bar{
+    background-color:rgb(209, 228, 228);
+    border-radius: 10px;
+}
+progress::-webkit-progress-value{
+    background-color: #9BD5FF;
+    border-radius: 10px;
+}

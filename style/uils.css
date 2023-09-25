@@ -70,3 +70,7 @@ transition: transform 0.3s, box-shadow 0.3s;
 .section{
     margin-top: 5rem;
 }
+p{
+ 
+    letter-spacing: .05em;
+}

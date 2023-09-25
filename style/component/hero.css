@@ -1,0 +1,35 @@
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.hero__image{
+    /* display: inline; */
+    /* display: inline-block; */
+    
+    border-radius: 50%;
+    border: 2px solid  #a5f3fc;
+    width: 6rem;
+    height: 6rem;
+}
+.hero__subtitle{
+color: var(--clr-slate800);
+font-size: var(--size-base);
+line-height: 0.9;
+}
+.hero__title{
+    color: var(--clr-slate600);
+    text-decoration: uppercase;
+    font-size: var(--size-4xl);
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+}
+.hero__description{
+    color: var(--clr-light);
+    max-width: 60ch;
+    font-size: var(--size-sm);
+}
